@@ -7,6 +7,11 @@
     "dev": "node --watch server",
     "start": "node server"
   },
+  "scripts": {
+  "dev": "node --watch server",
+  "start": "node server",
+  "build": "echo 'No build step needed for backend' && exit 0"
+},
   "author": "",
   "license": "ISC",
   "description": "",
